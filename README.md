@@ -1,20 +1,15 @@
-## Lesson-8
+# Installation
 
-Starting our sign in section by creating a new sign in and sign up page, as well as start creating sign in component.
+E-shop requires [Node.js](https://nodejs.org/) to run.
 
-# How to fork and clone
+Install the dependencies and devDependencies and start the server.
 
-One quick note about cloning this project. If you wish to make commits and push the code up after cloning this repo, you should fork the project first. In order to own your own copy of this repository, you have to fork it so you get your own copy on your own profile!
+```sh
+$ cd e-shop
+$ npm install
+$ npm start
+```
 
-You can see the fork button in the top right corner of every GitHub project; click it and a copy of the project will be added to your GitHub profile under the same name as the original project.
+# App
 
-![alt text](https://i.ibb.co/1YN7SJ6/Screen-Shot-2019-07-01-at-2-02-40-AM.png "image to fork button")
-
-After forking the project, simply clone it the way you would from the new forked project in your own GitHub repository and you can commit and push to it freely!
-
-
-# After you fork and clone:
-
-## Install dependencies
-
-In your terminal after you clone your project down, remember to run either `yarn` or `npm install` to build all the dependencies in the project.
+Simple E-shop App using React, Redux and Firebase
