@@ -16,7 +16,11 @@ const config = {
 firebase.initializeApp(config);
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
-  // check if the user object is valid, if not we don't want to store it in firebase db
+  console.log(
+    'TLC: createUserProfileDocument -> additionalData',
+    additionalData
+  );
+  // check if the user authentification is true if not we don't want to store it in firebase db
   if (!userAuth) return;
 
   const userRef = firestore.doc(`users/${userAuth.uid}`);

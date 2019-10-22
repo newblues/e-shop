@@ -34,6 +34,7 @@ class SignUp extends React.Component {
         email,
         password
       );
+      console.log('TLC: SignUp -> user', user);
 
       await createUserProfileDocument(user, { displayName });
 
